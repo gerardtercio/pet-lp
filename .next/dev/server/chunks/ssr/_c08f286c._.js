@@ -535,11 +535,11 @@ function Hero() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-0 right-0 md:right-10 lg:right-20 z-0 flex justify-center md:justify-end w-full md:w-auto",
+                className: "absolute bottom-0 right-0 md:right-10 lg:right-20 z-[1] md:z-0 flex justify-center md:justify-end w-full md:w-auto",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].img, {
                     src: "https://gammavet.com.br/wp-content/uploads/2023/02/gato-cachorro-veterinario-gamma-vet.png",
                     alt: "Veterinário com animais",
-                    className: "w-80 h-auto md:w-[500px] lg:w-[600px] object-contain drop-shadow-2xl",
+                    className: "w-64 h-auto md:w-[500px] lg:w-[600px] object-contain drop-shadow-2xl",
                     loading: "lazy",
                     initial: {
                         opacity: 0,
@@ -555,12 +555,12 @@ function Hero() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/hero.tsx",
-                    lineNumber: 174,
+                    lineNumber: 175,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/hero.tsx",
-                lineNumber: 173,
+                lineNumber: 174,
                 columnNumber: 7
             }, this)
         ]

@@ -568,16 +568,16 @@
     left: calc(var(--spacing) * 14);
   }
 
-  .z-0 {
-    z-index: 0;
-  }
-
   .z-10 {
     z-index: 10;
   }
 
   .z-50 {
     z-index: 50;
+  }
+
+  .z-\[1\] {
+    z-index: 1;
   }
 
   .mx-auto {
@@ -730,8 +730,8 @@
     width: calc(var(--spacing) * 56);
   }
 
-  .w-80 {
-    width: calc(var(--spacing) * 80);
+  .w-64 {
+    width: calc(var(--spacing) * 64);
   }
 
   .w-full {
@@ -787,22 +787,6 @@
     rotate: -25deg;
   }
 
-  .-rotate-\[12deg\] {
-    rotate: -12deg;
-  }
-
-  .-rotate-\[15deg\] {
-    rotate: -15deg;
-  }
-
-  .-rotate-\[20deg\] {
-    rotate: -20deg;
-  }
-
-  .-rotate-\[25deg\] {
-    rotate: -25deg;
-  }
-
   .rotate-8 {
     rotate: 8deg;
   }
@@ -833,22 +817,6 @@
 
   .rotate-45 {
     rotate: 45deg;
-  }
-
-  .rotate-\[18deg\] {
-    rotate: 18deg;
-  }
-
-  .rotate-\[25deg\] {
-    rotate: 25deg;
-  }
-
-  .rotate-\[28deg\] {
-    rotate: 28deg;
-  }
-
-  .rotate-\[35deg\] {
-    rotate: 35deg;
   }
 
   .transform {
@@ -1356,56 +1324,20 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  .opacity-\[0\.1\] {
-    opacity: .1;
-  }
-
   .opacity-\[0\.2\] {
     opacity: .2;
-  }
-
-  .opacity-\[0\.03\] {
-    opacity: .03;
   }
 
   .opacity-\[0\.04\] {
     opacity: .04;
   }
 
-  .opacity-\[0\.05\] {
-    opacity: .05;
-  }
-
-  .opacity-\[0\.5\] {
-    opacity: .5;
-  }
-
   .opacity-\[0\.06\] {
     opacity: .06;
   }
 
-  .opacity-\[0\.07\] {
-    opacity: .07;
-  }
-
-  .opacity-\[0\.7\] {
-    opacity: .7;
-  }
-
-  .opacity-\[0\.08\] {
-    opacity: .08;
-  }
-
-  .opacity-\[0\.09\] {
-    opacity: .09;
-  }
-
   .opacity-\[0\.13\] {
     opacity: .13;
-  }
-
-  .opacity-\[0\.17\] {
-    opacity: .17;
   }
 
   .opacity-\[0\.21\] {
@@ -1442,10 +1374,6 @@
 
   .opacity-\[0\.29\] {
     opacity: .29;
-  }
-
-  .opacity-\[0\.55\] {
-    opacity: .55;
   }
 
   .shadow-lg {
@@ -1564,6 +1492,12 @@
   @media (min-width: 48rem) {
     .md\:left-4 {
       left: calc(var(--spacing) * 4);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:z-0 {
+      z-index: 0;
     }
   }
 
