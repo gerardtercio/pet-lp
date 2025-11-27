@@ -167,14 +167,27 @@ export default function Hero() {
             Fale Conosco
           </motion.button>
         </div>
+
+        {/* Imagem abaixo do texto no mobile */}
+        <div className="mt-8 md:hidden flex justify-center">
+          <motion.img
+            src="https://gammavet.com.br/wp-content/uploads/2023/02/gato-cachorro-veterinario-gamma-vet.png"
+            alt="Veterinário com animais"
+            className="w-64 h-auto object-contain drop-shadow-2xl"
+            loading="lazy"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+          />
+        </div>
       </div>
 
-      {/* Imagem na divisão da seção - mobile e desktop */}
-      <div className="absolute bottom-0 right-0 md:right-10 lg:right-20 z-0 flex justify-center md:justify-end w-full md:w-auto">
+      {/* Imagem na divisão da seção - apenas desktop */}
+      <div className="hidden md:flex absolute bottom-0 right-10 lg:right-20 z-0 justify-end">
         <motion.img
           src="https://gammavet.com.br/wp-content/uploads/2023/02/gato-cachorro-veterinario-gamma-vet.png"
           alt="Veterinário com animais"
-          className="w-80 h-auto md:w-[500px] lg:w-[600px] object-contain drop-shadow-2xl"
+          className="w-[500px] lg:w-[600px] h-auto object-contain drop-shadow-2xl"
           loading="lazy"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
